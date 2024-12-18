@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Vault - Gallery</title>
+  <link rel="shortcut icon" href="./gamevault.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/3386fd30d1.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url('https://wallpapers.com/images/hd/dark-gaming-3475-x-1679-wallpaper-wjdfq8rsvh4lz1dt.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .navbar {
+      background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ddd !important;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #f4f4f4;
+      margin-top: 100px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #dad6db;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(50, 50, 50, 0.8);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .card-content h3 {
+      margin: 0;
+      font-size: 1.2em;
+      color: #fff;
+    }
+    
+    .card-content p {
+      margin: 5px 0 0;
+      font-size: 0.9em;
+      color: #ddd;
+    }    
+
+    .card-content .category {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #007BFF;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .pagination button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .pagination button.disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    .pagination button.active {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .card img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="70" height="70">
+            <circle cx="100" cy="100" r="95" fill="none" stroke="white" stroke-width="5" />
+            <text x="50%" y="50%" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="100" font-style="italic" font-weight="bold" dx="-0.2em" dy="0.3em">
+                G
+            </text>
+            <text x="50%" y="50%" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="80" font-style="italic" font-weight="bold" dx="0.3em" dy="0.6em">
+                V
+            </text>
+            <line x1="50" y1="150" x2="150" y2="150" stroke="white" stroke-width="2" />
+            <line x1="50" y1="50" x2="150" y2="50" stroke="white" stroke-width="2" />
+            <circle cx="100" cy="100" r="80" fill="none" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+        </svg>
+        </a>
+
+        <a class="navbar-brand" href="browse.html">Explore the Gaming World with Us</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./browse.html">Browse Games</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./community.html">Explore Community</a>
+              </li>
+              <li class="nav-item"></li>
+                  <a class="nav-link" href="./login.html">Login | Register</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mt-32 mb-8">
+    <h1>Game Gallery</h1>
+
+    <div class="input-group mb-3">
+      <input type="text" id="search-input" class="form-control" placeholder="Search games by name or category..." aria-label="Search">
+    </div>
+
+    <div id="grid" class="grid-container"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <script>
+    const GRID_CONTAINER = document.getElementById('grid');
+    const PAGINATION_CONTAINER = document.getElementById('pagination');
+    const SEARCH_INPUT = document.getElementById('search-input');
+    const ITEMS_PER_PAGE = 6;
+    let currentPage = 1;
+    let gamesData = [];
+    let filteredGames = [];
+
+    fetch('games2.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Network response was not ok (Status: ${response.status} ${response.statusText})`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (!data.games || !Array.isArray(data.games)) {
+          throw new Error('Invalid JSON structure: "games" array is missing.');
+        }
+        gamesData = data.games;
+        filteredGames = gamesData; 
+        renderGrid();
+        renderPagination();
+      })
+      .catch(error => {
+        console.error('Error fetching or parsing JSON:', error);
+        GRID_CONTAINER.innerHTML = `<p style="color: red;">Error loading game data: ${error.message}</p>`;
+      });
+
+    SEARCH_INPUT.addEventListener('input', () => {
+      const searchTerm = SEARCH_INPUT.value.toLowerCase();
+      filteredGames = gamesData.filter(game =>
+        game.name.toLowerCase().includes(searchTerm) ||
+        game.category.toLowerCase().includes(searchTerm)
+      );
+      currentPage = 1;
+      renderGrid();
+      renderPagination();
+    });
+
+    function renderGrid() {
+      GRID_CONTAINER.innerHTML = '';
+      const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+      const endIndex = startIndex + ITEMS_PER_PAGE;
+      const paginatedItems = filteredGames.slice(startIndex, endIndex);
+
+      if (paginatedItems.length === 0) {
+        GRID_CONTAINER.innerHTML = '<p>No games available.</p>';
+        return;
+      }
+
+      paginatedItems.forEach(game => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        const img = document.createElement('img');
+        img.src = game.image;
+        img.alt = game.name;
+        img.onerror = () => { img.src = 'https://via.placeholder.com/300x150?text=Image+Not+Found'; };
+
+        const cardContent = document.createElement('div');
+        cardContent.classList.add('card-content');
+
+        const title = document.createElement('h3');
+        title.textContent = game.name;
+
+        const description = document.createElement('p');
+        description.textContent = game.description;
+
+        const category = document.createElement('div');
+        category.classList.add('category');
+        category.textContent = game.category;
+
+        cardContent.appendChild(title);
+        cardContent.appendChild(description);
+        cardContent.appendChild(category);
+
+        card.appendChild(img);
+        card.appendChild(cardContent);
+
+        GRID_CONTAINER.appendChild(card);
+      });
+    }
+
+    function renderPagination() {
+      PAGINATION_CONTAINER.innerHTML = '';
+      const totalPages = Math.ceil(filteredGames.length / ITEMS_PER_PAGE);
+
+      if (totalPages <= 1) return;
+
+      const prevButton = document.createElement('button');
+      prevButton.textContent = 'Prev';
+      prevButton.disabled = currentPage === 1;
+      prevButton.addEventListener('click', () => {
+        currentPage--;
+        renderGrid();
+        renderPagination();
+      });
+
+      const nextButton = document.createElement('button');
+      nextButton.textContent = 'Next';
+      nextButton.disabled = currentPage === totalPages;
+      nextButton.addEventListener('click', () => {
+        currentPage++;
+        renderGrid();
+        renderPagination();
+      });
+
+      PAGINATION_CONTAINER.appendChild(prevButton);
+
+      for (let i = 1; i <= totalPages; i++) {
+        const pageButton = document.createElement('button');
+        pageButton.textContent = i;
+        pageButton.classList.toggle('active', i === currentPage);
+        pageButton.addEventListener('click', () => {
+          currentPage = i;
+          renderGrid();
+          renderPagination();
+        });
+        PAGINATION_CONTAINER.appendChild(pageButton);
+      }
+
+      PAGINATION_CONTAINER.appendChild(nextButton);
+    }
+  </script>
+</body>
+
+</html>

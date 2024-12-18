@@ -1,0 +1,180 @@
+{
+    "games": [
+          {
+            "name": "Valorant",
+            "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2020/6/5/ctsejxmdtw9inp8zqqqd/red-bull-campus-clutch-valorant-agents",
+            "description": "A tactical first-person shooter where teams of agents with unique abilities face off in fast-paced matches.",
+            "category": "Shooter"
+          },
+          {
+            "name": "FIFA 24",
+            "image": "https://assets.goal.com/images/v3/bltc0075187372c2570/GOAL_-_Blank_WEB_-_Facebook_(53).jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "description": "A football simulation game that allows players to experience realistic matches with teams from around the world.",
+            "category": "Sports"
+          },
+          {
+            "name": "Grand Theft Auto V",
+            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0911/VIB0SeEj9vT6DTv7P4thJLZi.jpg?w=440",
+            "description": "An open-world action-adventure game where players complete missions and explore the fictional city of Los Santos.",
+            "category": "Action"
+          },
+          {
+            "name": "Assassin's Creed Valhalla",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/2208920/header.jpg?t=1697654233",
+            "description": "An open-world action-adventure game where players control a Viking raider as they build a settlement and wage battles.",
+            "category": "Action"
+          },
+          {
+            "name": "Call of Duty: Modern Warfare II",
+            "image": "https://api3.win.gg/wp-content/uploads/2022/10/MWII-002-REVEAL-TOUT.jpg",
+            "description": "A first-person shooter game that immerses players in military combat with a cinematic story and competitive multiplayer.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Apex Legends",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/ffbb3e6e82ceb4b3fa219d2e207c98b566a0a33e/capsule_616x353.jpg?t=1732533158",
+            "description": "A free-to-play battle royale shooter where players choose from different legends, each with unique abilities.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Pacman",
+            "image": "https://www.fizzcreations.com/wp-content/uploads/2020/01/PAC-MAN-Banner.jpg",
+            "description": "A classic arcade game where the player navigates Pac-Man through a maze, eating dots while avoiding ghosts.",
+            "category": "Arcade"
+          },
+          {
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
+            "description": "An open-world adventure game set in the vast kingdom of Hyrule, where players guide Link on a quest to defeat Calamity Ganon.",
+            "category": "Adventure"
+          },
+          {
+            "name": "Fortnite",
+            "image": "https://cdn2.unrealengine.com/social-image-chapter4-s3-3840x2160-d35912cc25ad.jpg",
+            "description": "A battle royale game where players fight to be the last one standing on a shrinking map, featuring construction mechanics.",
+            "category": "Battle Royale"
+          },
+          {
+            "name": "Minecraft",
+            "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a",
+            "description": "A sandbox game where players can build and explore their own worlds, gathering resources and crafting items.",
+            "category": "Sandbox"
+          },
+          {
+            "name": "Super Mario Odyssey",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000001130/c42553b4fd0312c31e70ec7468c6c9bccd739f340152925b9600631f2d29f8b5",
+            "description": "A 3D platformer where Mario travels across different kingdoms to rescue Princess Peach from Bowser.",
+            "category": "Platformer"
+          },
+          {
+            "name": "Overwatch 2",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg?t=1729891956",
+            "description": "A team-based multiplayer first-person shooter with unique heroes, each with their own abilities and roles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Animal Crossing: New Horizons",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70050000030669/0cc4c2382ba7c7d6a9f0471e9b8ab155ff754cc97735c32289133c8b83141eb5",
+            "description": "A life-simulation game where players build a community on a deserted island and interact with animal villagers.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Cyberpunk 2077",
+            "image": "https://www.cyberpunk.net/build/images/pre-order/buy-b/keyart-ue-en@2x-cd66fd0d.jpg",
+            "description": "An open-world RPG set in a dystopian future where players assume the role of V, a mercenary outlaw navigating a high-tech world.",
+            "category": "RPG"
+          },
+          {
+            "name": "God of War: Ragnarök",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_616x353.jpg?t=1728067832",
+            "description": "An action-adventure game where Kratos and his son, Atreus, face off against gods and monsters of Norse mythology.",
+            "category": "Action"
+          },
+          {
+            "name": "Elden Ring",
+            "image": "https://www.candb.com/site/candb/images/artwork/elden-ring_bandai-namco.jpg",
+            "description": "An open-world action RPG set in a dark fantasy world, featuring exploration, combat, and lore from George R.R. Martin.",
+            "category": "RPG"
+          },
+          {
+            "name": "League of Legends",
+            "image": "https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b",
+            "description": "A multiplayer online battle arena (MOBA) game where teams of champions compete to destroy the opposing team’s base.",
+            "category": "MOBA"
+          },
+          {
+            "name": "Hades",
+            "image": "https://avid-archer.com/wp-content/uploads/2024/07/Hades-and-Persophene-in-the-underworld-1140x651.webp",
+            "description": "A rogue-like dungeon crawler where players fight their way out of the Underworld as the immortal prince Zagreus.",
+            "category": "Rogue-like"
+          },
+          {
+            "name": "Resident Evil Village",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1728438212",
+            "description": "A survival horror game where players must escape a terrifying village filled with monsters and mysteries.",
+            "category": "Horror"
+          },
+          {
+            "name": "The Sims 4",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1235765/header.jpg?t=1721945085",
+            "description": "A life simulation game where players create and control characters, build homes, and shape their virtual lives.",
+            "category": "Simulation"
+          },
+          {
+            "name": "Rocket League",
+            "image": "https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S3_2560x1440-18eac9b5df1028fdcd5bad480ab6b085",
+            "description": "A unique sports game where players drive cars to hit a soccer ball into the opposing team’s goal.",
+            "category": "Sports"
+          },
+          {
+            "name": "Hollow Knight",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51",
+            "description": "A 2D action-adventure game set in a hauntingly beautiful world filled with challenging combat and exploration.",
+            "category": "Metroidvania"
+          },
+          {
+            "name": "Red Dead Redemption 2",
+            "image": "https://cdn1.epicgames.com/b30b6d1b4dfd4dcc93b5490be5e094e5/offer/RDR2476298253_Epic_Games_Wishlist_RDR2_2560x1440_UE_V01-2560x1440-c539ce6125af9d99a0a225e024121f48.jpg?resize=1&w=480&h=270&quality=medium",
+            "description": "A Western-themed action-adventure game where players take on the role of Arthur Morgan, an outlaw in a changing world.",
+            "category": "Action"
+          },
+          {
+            "name": "Among Us",
+            "image": "https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075",
+            "description": "A multiplayer party game where players must work together to complete tasks on a spaceship while identifying impostors.",
+            "category": "Party"
+          },
+          {
+            "name": "Fall Guys",
+            "image": "https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/FGSS04_KeyArt_OfferImageLandscape_2560x1440_2560x1440-89c8edd4ffe307f5d760f286a28c3404",
+            "description": "A multiplayer party game where players race through obstacle courses to be the last one standing.",
+            "category": "Party"
+          },
+          {
+            "name": "The Witcher 3: Wild Hunt",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000033071/3f7ee6aa3482b514bd443e116022b038a9728f017916ed37da3f09f731a7d5f2",
+            "description": "An open-world RPG where players take on the role of Geralt of Rivia, a monster hunter in a richly detailed world.",
+            "category": "RPG"
+          },
+          {
+            "name": "Splatoon 3",
+            "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000046395/94a4095cda06c4d85c637d1af451979f9933302b6b17174d97c45de7a68584a2",
+            "description": "A team-based shooter where players compete in colorful ink-based battles.",
+            "category": "Shooter"
+          },
+          {
+            "name": "Monster Hunter Rise",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000029016/b6ca09e9a7f6faf27641f62dabe64c6ff97b4f326aa478379e3c112aa28eb9ab",
+            "description": "An action RPG where players hunt and battle massive creatures in various environments.",
+            "category": "Action"
+          },
+          {
+            "name": "Forza Horizon 5",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1730830713",
+            "description": "A racing game set in an open world based on Mexico, offering a variety of cars and events.",
+            "category": "Racing"
+          }
+          
+    ]
+  }
+  
